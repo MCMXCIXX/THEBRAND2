@@ -1,0 +1,36 @@
+@import '_reset.scss';
+@import '_fonts.scss';
+@import '_vars.scss';
+@import '_header.scss';
+@import '_promo.scss';
+@import '_offers.scss';
+@import '_features.scss';
+@import '_stock.scss';
+@import '_subscribe.scss';
+@import '_footer.scss';
+body {
+    font-family: Lato Regular, sans-serif;
+    font-size: 14px;
+    font-size: 14px;
+    font-weight: 300;
+    color: $dark-main-color;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    max-width: 1120px;
+    padding: 0 10px;
+    margin: 0 auto;
+ }
+ button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+ }
+ .offers__title--hidden {
+    display: none;
+ }
