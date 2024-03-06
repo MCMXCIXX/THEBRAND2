@@ -1,0 +1,28 @@
+
+.promo { 
+    max-width: 1600px;
+    max-height: 665px;
+    background-color: #e8e8e8;
+    background-image: url(../images/promo/promo_bg.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    padding: 276px 0 297px 0;
+
+}
+.promo__title { 
+    font-size: 60px;
+    line-height: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-left: 12px solid $pink-main-color;
+    padding-left: 12px;
+    
+}
+.promo__title-tiny {
+    display: block;
+    font-size: 40px;
+ }
+.promo__title-tiny--pink {
+    display: inline;
+    color: #f16d7f;
+ }

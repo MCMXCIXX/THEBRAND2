@@ -1,0 +1,83 @@
+.subscribe {
+    background-image: url(../images/subscribe/subscribe_bg.jpg);
+    background-size: cover;
+ }
+.container { }
+.subscribe__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 123px 0 156px 0;
+}
+.subscribe__review { 
+    display: flex;
+
+}
+.subscribe__review-img-wrapper { }
+.subscribe__quote {
+    max-width: 387px;
+    margin-left: 28px;
+}
+.subscribe__quote-text { 
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+.subscribe__quote-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: $pink-main-color;
+    margin-top: 19px;
+ }
+.subscribe__quote-place { 
+    line-height: 14px;
+    font-weight: 300;
+    margin-bottom: 41px;
+}
+.subscribe__quote-btn-wrapper { 
+    display: flex;
+    gap: 13px;
+}
+.subscribe__quote-btn {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
+ }
+.subscribe__action {
+    max-width: 387px;
+    text-align: center;
+    padding-right: 91px;
+ }
+.subscribe__title {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+ }
+.subscribe__subtitle {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+ }
+.subscribe__form { }
+.subscribe__input {
+    box-sizing: border-box;
+    width: 280px;
+    height: 46px;
+    background-color: #e1e1e1;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border: none;
+    outline: none;
+    padding: 18px 28px;
+ }
+.subscribe__btn {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: none;
+    width: 104px;
+    height: 46px;
+    color: #fff;
+    border-radius: 0px 23px 23px 0px;
+    background-color: $pink-main-color;
+ }
