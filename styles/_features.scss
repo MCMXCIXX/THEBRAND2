@@ -1,57 +1,63 @@
-.features { }
-.container { }
-.features__title {
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center  ;
- }
-.features__subtitle { 
-    font-size: 14px;
-    font-weight: 400;
-    color: #9f9f9f;
-    text-align: center;
-    margin: 16px 0 60px 0;
+.features {
 }
-.features__list-wrapper { }
+.container {
+}
+.features__title {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 72px;
+	text-transform: uppercase;
+}
+.features__subtitle {
+	font-size: 14px;
+	font-weight: 400;
+	color: #9f9f9f;
+	text-align: center;
+	margin: 16px 0 60px 0;
+}
+.features__list-wrapper {
+}
 .features__list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 30px;
- }
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 30px;
+}
 .features__item {
-    max-width: 261px;
- }
-.features__img-wrapper { }
+	max-width: 261px;
+}
+.features__img-wrapper {
+}
 .features__img {
-    width: 100%;
- }
-.features__text-wrapper { 
-    padding: 19px 0 21px 15px;
+	width: 100%;
+}
+.features__text-wrapper {
+	padding: 19px 0 21px 15px;
 }
 .features__item-title {
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-bottom: 16px;
- }
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
 .features__price {
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $pink-main-color;
- }
- .features__btn-wrapper { 
-    text-align: center;
- }
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: $pink-main-color;
+}
+.features__btn-wrapper {
+	text-align: center;
+}
 .features__btn {
-    display: inline-block;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 700;
-    width: 212px;
-    padding: 18px 0 19px;
-    text-align: center;
-    background-color: $pink-main-color;
-    margin: 79px 0 112px;
- }
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 700;
+	width: 212px;
+	padding: 18px 0 19px;
+	text-align: center;
+	background-color: $pink-main-color;
+	margin: 79px 0 112px;
+}
